@@ -1,0 +1,177 @@
+# ---- Operating System ----
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# ---- IDEs / Editors ----
+# VS Code
+.vscode/
+*.code-workspace
+
+# IntelliJ / WebStorm / PyCharm
+.idea/
+*.iml
+out/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim swap files
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-v][a-z]
+[._]sw[a-p]
+
+# Emacs temp files
+*~
+\#*\#
+
+# ---- Dependency directories ----
+node_modules/
+bower_components/
+
+# ---- Python ----
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+env/
+venv/
+.venv/
+ENV/
+.ENV/
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# ---- Java / JVM ----
+# Compiled class files
+*.class
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+release.properties
+
+# Gradle
+.gradle/
+build/
+
+# ---- .NET ----
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.db
+
+# ---- Go ----
+# Binaries
+*.exe
+*.exe~
+*.out
+*.test
+
+# ---- Rust ----
+target/
+**/*.rs.bk
+
+# ---- Node / JavaScript ----
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# ---- Ruby ----
+*.gem
+*.rbc
+.bundle/
+vendor/bundle/
+log/
+tmp/
+
+# ---- PHP ----
+vendor/
+composer.lock
+
+# ---- Docker ----
+# Docker build
+docker-compose.override.yml
+docker-compose.*.yml
+**/Dockerfile.*
+**/.dockerignore
+
+# ---- Terraform ----
+*.tfstate
+*.tfstate.*
+.terraform/
+crash.log
+
+# ---- Kubernetes ----
+*.kubeconfig
+
+# ---- Certificates & Keys ----
+*.pem
+*.key
+*.crt
+*.p12
+
+# ---- Environment files ----
+.env
+.env.*.local
+.env.local
+.env.test
+.env.production
+
+# ---- Logs ----
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# ---- Archives & Bundles ----
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# ---- Misc ----
+*.swp
+*.swo
+*.bak
+*.tmp
+*.old
+*.orig
+*.log*
+
+# ---- Coverage / Reports ----
+coverage/
+*.lcov
+
+# ---- JetBrains Rider ----
+.idea/
+*.sln.iml
+
+# ---- Custom per-project overrides ----
+# Add any other files or folders you want Git to ignore below:
+# .my-secret-folder/
+# *.mytemp
