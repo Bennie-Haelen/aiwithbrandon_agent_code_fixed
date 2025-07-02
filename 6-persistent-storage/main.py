@@ -30,7 +30,8 @@ async def main_async():
     )
 
     # If there is an existing session, use it; otherwise, create a new one
-    if sessions_response.sessions:
+    if sessions_response.sessions and len(sessions_response.sessions) > 0:
+        # Use the most recent session
         SESSION_ID = sessions_response.sessions[0].id
         print(f"Continuing existing session: {SESSION_ID}")
     else:
